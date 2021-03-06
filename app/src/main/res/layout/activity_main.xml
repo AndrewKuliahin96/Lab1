@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--
+    Так выглядит комментарий в XML
+
+    Добавьте контейнер LinearLayout для последовательного размещения элементов
+    Укажите атрибут orientation "vertical" для вертикального размещения
+    Добавьте внутри тела <LinearLayout>...</LinearLayout> элементы EditText и TextView
+    как показано ниже
+
+    EditText - элемент с полем для ввода текста а TextView - элемент для отображения текста
+-->
+
+    <EditText
+        android:id="@+id/etTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTextOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
